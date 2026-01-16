@@ -148,9 +148,9 @@ text_sensor:
   - platform: template
     name: "Fan Fault"
     icon: mdi:fan-alert
-    update_interval: 5s
+    update_interval: 30s
     lambda: |-
-      if (id(active_fan_count).state == 0) return std::string("Off");
+      if (!id(fan_power).state) return std::string("Off");
       if (id(active_fan_count).state < id(attached_fans)) return std::string("Fault");
       return std::string("OK");
 
