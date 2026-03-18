@@ -125,6 +125,7 @@ switch:
     id: fan_power
     icon: mdi:fan
     pin: GPIO13
+    restore_mode: RESTORE_DEFAULT_OFF
 
   - platform: template
     name: "Show Total in Fan Status"
