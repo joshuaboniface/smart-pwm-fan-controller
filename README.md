@@ -15,7 +15,7 @@ The PCB design details and assembly instructions can be found [in /board](board/
 
 For full details, [please see my blog post on the project](https://www.boniface.me/posts/smart-pwm-fan-controller).
 
-## Parts List
+## Parts List - Board
 
 **Note:** All prices are $CAD, as of May 2025, excluding shipping, sales, and bulk discounts beyond those indicated.
 
@@ -37,6 +37,28 @@ For full details, [please see my blog post on the project](https://www.boniface.
 | 1     | L1        | 3mm LED                   | $0.05 ($15.99/350)       | [Amazon (kit)](https://www.amazon.ca/dp/B073GRZNRL) |
 | 2     | N/A       | 2.54mm 1x19 female header | $0.31 ($3.14/10)         | [AliExpress](https://www.aliexpress.com/item/4001198421663.html)* |
 | **T** |           |                           | $13.30                   |       |
+
+## Parts List - 3D Printable Case (w/ Optional Rack Mount)
+
+**Note:** For the case you will need to print 1x Body, 1x Lid and optionally 1x Rack Mount if intended to mount in a server rack. Screws and nuts needed will depend on whether you are rack mounting or not. Please see below.
+
+**Note:** Case can be printed entirely without supports in the material of your choice. Tested in PLA+ and PETG.
+
+**Note:** All prices are in $AUD, as of February 2026, excluding shipping, sales and bulk discounts beyond those indicated.
+
+**Standalone Case**
+| Qty   | Component                 | Cost                     | Links |
+|-------|---------------------------|--------------------------|-------|
+| 4     | M2x12 Screw (AA024)       | $0.09 ($1.91/20)         | [Bambu Lab](https://au.store.bambulab.com/products/m2-socket-head-cap-machine-screws-shcs?id=44534986604707) |
+| 4     | M2 Hex Nut (AB003)        | $0.09 ($1.95/20)         | [Bambu Lab](https://au.store.bambulab.com/products/hex-nut?id=44587813929123) |
+| **T** |                           | $0.18                    |       |
+
+**Rackmount Case**
+| Qty   | Component                 | Cost                     | Links |
+|-------|---------------------------|--------------------------|-------|
+| 4     | M2x16 Screw (AA025)       | $0.09 ($1.93/20)         | [Bambu Lab](https://au.store.bambulab.com/products/m2-socket-head-cap-machine-screws-shcs?id=44534986670243) |
+| 8     | M2 Hex Nut (AB003)        | $0.09 ($1.95/20)         | [Bambu Lab](https://au.store.bambulab.com/products/hex-nut?id=44587813929123) |
+| **T** |                           | $0.18                    |       |
 
 # Contributing
 
